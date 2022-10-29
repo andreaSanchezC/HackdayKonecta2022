@@ -119,9 +119,9 @@ img {
 .main {
     position: absolute;
     top: 60px;
-    width: calc(100% - 260px);
+    width: calc(100% - 230px);
     min-height: calc(100vh - 60px);
-    left: 260px;
+    left: 230px;
     background: #f5f5f5;
 }
 

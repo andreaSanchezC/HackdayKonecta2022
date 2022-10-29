@@ -3,11 +3,11 @@ var myChart = new Chart(ctx, {
 
     type: 'bar',
     data: {
-        labels: ['María', 'Jenny', 'Juan'],
+        labels: ['María', 'Jenny', 'Juan', 'Juliana','lisa'],
         datasets: [
             {
                 label: 'Dataset 1',
-                data: [9, 12, 5],
+                data: [9, 12, 5, 6, 10],
                 borderColor: 'rgb(255, 153, 51)',
                 backgroundColor: 'rgb(255, 153, 51)',
                 order: 1
@@ -15,7 +15,7 @@ var myChart = new Chart(ctx, {
             
             {
                 label: 'Dataset 4',
-                data: [9, 12, 5],
+                data: [9, 12, 5, 6, 10],
                 borderColor: 'rgb(255, 102, 102)',
                 backgroundColor: 'rgb(255, 102, 102)',
                 type: 'line',
