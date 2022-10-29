@@ -186,6 +186,14 @@ img {
     text-align: center
 }
 
+h1 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #666;
+    text-align: center
+}
+
 @media (max-width:1115px) {
     .sidebar {
         width: 60px;
