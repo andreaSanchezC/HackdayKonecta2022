@@ -50,16 +50,39 @@
           </li>
         </ul>
       </div>
-      <div class="main" style="text-align: -webkit-center;">
+      <div class="main" style="text-align: -webkit-center">
         <h1>Información agentes</h1>
-        <div id="wrapper" style="width: max-content;"></div>
+
+        <div style="display: flex;">
+          <div style="width: 50%;">
+            <div class="cardAgent" style="margin-block: auto;">
+              <div class="card">
+                <div class="card-content">
+                  <div class="number">10</div>
+                  <div class="card-name">Total agentes</div>
+                </div>
+                <div class="icon-box">
+                  <i class="fas fa-user"></i>
+                </div>
+              </div>
+            </div>
+            <div class="chartAgent doughnut-chart" style="margin-bottom: 25px;">
+              <h2>Rendimiento del día</h2>
+              <div>
+                  <canvas id="doughnut2"></canvas>
+              </div>
+          </div>
+          </div>
+
+          <div id="wrapper" style="width: max-content"></div>
+        </div>
       </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
     <script src="chart1.js"></script>
     <script src="chart2.js"></script>
-    <script src="chart4.js"></script>
+    <script src="chart3.js"></script>
     <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
     <script src="tabla.js"></script>
   </body>
