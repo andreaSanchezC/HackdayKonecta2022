@@ -3,10 +3,12 @@ var myChart = new Chart(ctx, {
 
     type: 'bar',
     data: {
+        /* ultimas 5 fechas */
         labels: ['María', 'Jenny', 'Juan', 'Juliana','lisa'],
         datasets: [
             {
                 label: 'Dataset 1',
+                /* datos ventas totales de esos dias */
                 data: [9, 12, 5, 6, 10],
                 borderColor: 'rgb(255, 153, 51)',
                 backgroundColor: 'rgb(255, 153, 51)',

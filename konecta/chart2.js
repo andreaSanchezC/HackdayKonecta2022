@@ -2,7 +2,7 @@ var ctx2 = document.getElementById('doughnut').getContext('2d');
 var myChart2 = new Chart(ctx2, {
     type: 'doughnut',
     data: {
-        labels: ['Ventas', 'No ventas', 'Ventas pospuestas'],
+        labels: ['Ventas', 'No ventas', 'Reprogramadas'],
 
         datasets: [{
             label: 'Dataset 1',
